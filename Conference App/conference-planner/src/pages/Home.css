@@ -1,0 +1,121 @@
+/* Colour palette: https://colorhunt.co/palette/ad8b73ceab93e3caa5fffbe9 */
+
+.home-container {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    padding: 20px;
+    max-width: 900px;
+    margin: 0 auto;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .title {
+    text-align: center;
+    color: #333;
+  }
+  
+  .search-bar {
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  .search-input {
+    width: 60%;
+    padding: 8px;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .session-filter {
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  .dropdown {
+    padding: 8px;
+    font-size: 14px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+  }
+  
+  .section-title {
+    color: #555;
+    margin-bottom: 10px;
+    border-bottom: 2px solid #ddd;
+    padding-bottom: 5px;
+  }
+  
+  .talks-list, .schedule-list {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .talk-item, .schedule-item {
+    padding: 15px;
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    background-color: #fff;
+  }
+  
+  .talk-item.conflicting {
+    background-color: #ffecec;
+    border-color: #f5c2c2;
+  }
+  
+  .talk-details, .rating {
+    margin-bottom: 5px;
+  }
+  
+  .rate-talk, .description {
+    margin-top: 10px;
+  }
+  
+  .description-toggle, .schedule-button, .remove-button, .clear-schedule {
+    background-color: #CEAB93;
+    color: #fff;
+    border: none;
+    padding: 8px 12px;
+    font-size: 14px;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .description-toggle:hover, .schedule-button:hover, .remove-button:hover, .clear-schedule:hover {
+    background-color: #AD8B73;
+  }
+  
+  .clear-schedule {
+    margin-top: 20px;
+    width: 100%;
+  }
+  
+  .button-group {
+    display: flex;
+    gap: 10px; /* Adds space between buttons */
+    margin-top: 10px; /* Adds space between buttons and other content */
+  }
+      
+  .interested {
+    background-color: #f0f8ff; /* Light blue background for interested talks */
+    border-left: 5px solid #AD8B73; /* Highlight with a blue border */
+  }
+  
+  .interest-button {
+    background-color: #FFFBE9;
+    color: #000;
+    border: none;
+    padding: 8px 12px;
+    font-size: 14px;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-right: 10px;
+  }
+  
+  .interest-button:hover {
+    background-color: #E3CAA5;
+  }
+  
